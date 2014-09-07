@@ -8,8 +8,7 @@ Gem::Specification.new do |spec|
   spec.version       = S3Cli::VERSION
   spec.authors       = ['Lee Dohm']
   spec.email         = ['lee@lee-dohm.com']
-  spec.summary       = 'TODO: Write a short summary. Required.'
-  spec.description   = 'TODO: Write a longer description. Optional.'
+  spec.summary       = 'Creates an s3 command-line utility for manipulating S3 objects.'
   spec.homepage      = ''
   spec.license       = 'MIT'
 
@@ -20,4 +19,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'bundler', '~> 1.6'
   spec.add_development_dependency 'rake', '~> 10.0'
+  spec.add_development_dependency 'rubocop'
 end
